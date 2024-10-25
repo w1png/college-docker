@@ -1,0 +1,7 @@
+services:
+  website:
+    build: .
+    ports:
+      - "3005:80"
+    volumes:
+      - ./src:/usr/share/nginx/html

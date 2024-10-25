@@ -1,0 +1,14 @@
+services:
+  website:
+    build: .
+    ports:
+      - "3005:80"
+    volumes:
+      # Bind mount
+      - ./src:/usr/share/nginx/html
+      # Том
+      - app_data:/usr/share/nginx/html/data
+
+volumes:
+  app_data:
+    driver: local

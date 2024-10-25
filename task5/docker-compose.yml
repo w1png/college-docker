@@ -1,0 +1,10 @@
+services:
+  website:
+    build: 
+      context: .
+      args:
+        HELLO: "WORLD"
+    ports:
+      - "3005:80"
+    environment:
+      HELLO: "WORLD"

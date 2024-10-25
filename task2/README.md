@@ -1,0 +1,6 @@
+1. ![img1](docx/1.png)
+2. ![img2](docx/2.png)
+3. ![img3](docx/3.png)
+4. ![img4](docx/4.png)
+5. ![img5](docx/5.png)
+6. ![img6](docx/6.png)
